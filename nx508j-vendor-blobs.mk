@@ -41,6 +41,19 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx508j/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/zte/nx508j/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zte/nx508j/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/zte/nx508j/proprietary/bin/tfa9890:system/bin/tfa9890 \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/coldboot.patch:system/etc/tfa9890/coldboot.patch \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte.config:system/etc/tfa9890/zte.config \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte.patch:system/etc/tfa9890/zte.patch \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte.speaker:system/etc/tfa9890/zte.speaker \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_hq.eq:system/etc/tfa9890/zte_hq.eq \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_hq.preset:system/etc/tfa9890/zte_hq.preset \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_hq_dolby.eq:system/etc/tfa9890/zte_hq_dolby.eq \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_hq_dolby.preset:system/etc/tfa9890/zte_hq_dolby.preset \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_speech.eq:system/etc/tfa9890/zte_speech.eq \
+    vendor/zte/nx508j/proprietary/etc/tfa9890/zte_speech.preset:system/etc/tfa9890/zte_speech.preset \
+    vendor/zte/nx508j/proprietary/lib/libtfa9890_interface.so:system/lib/libtfa9890_interface.so \
+    vendor/zte/nx508j/proprietary/lib64/libtfa9890_interface.so:system/lib64/libtfa9890_interface.so \
     vendor/zte/nx508j/proprietary/lib/soundfx/libhwdap.so:system/lib/soundfx/libhwdap.so \
     vendor/zte/nx508j/proprietary/lib/soundfx/libswdap.so:system/lib/soundfx/libswdap.so \
     vendor/zte/nx508j/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
@@ -72,6 +85,28 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx508j/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/zte/nx508j/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/zte/nx508j/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_karaoke_heavy.bin:system/etc/firmware/ak4961_cram_karaoke_heavy.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_karaoke_light.bin:system/etc/firmware/ak4961_cram_karaoke_light.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_karaoke_middle.bin:system/etc/firmware/ak4961_cram_karaoke_middle.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_narrow_hf.bin:system/etc/firmware/ak4961_cram_narrow_hf.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_narrow_hp.bin:system/etc/firmware/ak4961_cram_narrow_hp.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_narrow_hs.bin:system/etc/firmware/ak4961_cram_narrow_hs.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_sound_record.bin:system/etc/firmware/ak4961_cram_sound_record.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_voice_recognition.bin:system/etc/firmware/ak4961_cram_voice_recognition.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_voice_record.bin:system/etc/firmware/ak4961_cram_voice_record.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_wide_hf.bin:system/etc/firmware/ak4961_cram_wide_hf.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_wide_hp.bin:system/etc/firmware/ak4961_cram_wide_hp.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_cram_wide_hs.bin:system/etc/firmware/ak4961_cram_wide_hs.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_oram_karaoke_heavy.bin:system/etc/firmware/ak4961_oram_karaoke_heavy.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_oram_karaoke_light.bin:system/etc/firmware/ak4961_oram_karaoke_light.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_oram_karaoke_middle.bin:system/etc/firmware/ak4961_oram_karaoke_middle.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_karaoke.bin:system/etc/firmware/ak4961_pram_karaoke.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_narrow.bin:system/etc/firmware/ak4961_pram_narrow.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_sound_record.bin:system/etc/firmware/ak4961_pram_sound_record.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_voice_recognition.bin:system/etc/firmware/ak4961_pram_voice_recognition.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_voice_record.bin:system/etc/firmware/ak4961_pram_voice_record.bin \
+    vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_wide.bin:system/etc/firmware/ak4961_pram_wide.bin \
+    vendor/zte/nx508j/proprietary/vendor/firmware/lm5802_appcode.bin:system/vendor/firmware/lm5802_appcode.bin \
     vendor/zte/nx508j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/zte/nx508j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
@@ -582,6 +617,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx508j/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/zte/nx508j/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zte/nx508j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15.raw:system/etc/firmware/A4_15.raw \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15.raw.00:system/etc/firmware/A4_15.raw.00 \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15.raw.02:system/etc/firmware/A4_15.raw.02 \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15.raw.03:system/etc/firmware/A4_15.raw.03 \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15.raw.04:system/etc/firmware/A4_15.raw.04 \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15_2.2_E0.fw.p:system/etc/firmware/A4_15_2.2_E0.fw.p \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15_3.0_AB.fw:system/etc/firmware/A4_15_3.0_AB.fw \
+    vendor/zte/nx508j/proprietary/etc/firmware/A4_15_3.0_AB.fw.t:system/etc/firmware/A4_15_3.0_AB.fw.t \
     vendor/zte/nx508j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx508j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx508j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
