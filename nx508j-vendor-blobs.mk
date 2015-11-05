@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx508j/proprietary/etc/firmware/ak4961_pram_wide.bin:system/etc/firmware/ak4961_pram_wide.bin \
     vendor/zte/nx508j/proprietary/vendor/firmware/lm5802_appcode.bin:system/vendor/firmware/lm5802_appcode.bin \
     vendor/zte/nx508j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/zte/nx508j/proprietary/lib/hw/a2i.default.so:system/lib/hw/a2i.default.so \
     vendor/zte/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/zte/nx508j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/zte/nx508j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -695,6 +696,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx508j/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/zte/nx508j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/zte/nx508j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/zte/nx508j/proprietary/lib64/hw/a2i.default.so:system/lib64/hw/a2i.default.so \
     vendor/zte/nx508j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
     vendor/zte/nx508j/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
     vendor/zte/nx508j/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \

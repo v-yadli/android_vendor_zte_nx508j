@@ -19,6 +19,16 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter nx508j,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE        := A2ISettings
+LOCAL_MODULE_CLASS  := APPS
+LOCAL_MODULE_OWNER  := zte
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_TAGS   := optional
+LOCAL_CERTIFICATE   := platform
+LOCAL_SRC_FILES     := proprietary/app/A2ISettings/A2ISettings.apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE        := TimeService
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_MODULE_OWNER  := qcom
